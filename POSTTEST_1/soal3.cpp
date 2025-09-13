@@ -22,7 +22,7 @@ int main() {
         getline(cin, mhs[i].nim);
         cout << "IPK  : ";
         cin >> mhs[i].ipk;
-        cin.ignore(); // membersihkan buffer agar getline berikutnya aman
+        cin.ignore(); 
     }
 
     // Sorting (Ascending berdasarkan IPK) - Bubble Sort
@@ -46,3 +46,4 @@ int main() {
 
     return 0;
 }
+
